@@ -20,6 +20,8 @@
                  [korma "0.4.3"]
                  [lib-noir "0.9.9"]
                  [org.clojure/clojure "1.6.0"]
+                 [ring/ring-defaults "0.3.2"]
+                 [ring/ring-json "0.4.0"]
                  [environ "1.1.0"]
                  [clj-pdf "2.2.31"]
                  [clj-time "0.14.3"]
@@ -32,6 +34,8 @@
                  [org.clojure/data.json "0.2.5"]
                  [clojure.joda-time "0.2.0"]
                  [lein-ring "0.12.4"]
+                 [ring-cors "0.1.13"]
+                 [ring/ring-codec "1.1.3"]
                  [hiccup "1.0.5"]
                  [ring/ring-anti-forgery "1.3.0"]
                  [cheshire "5.9.0"]
@@ -48,6 +52,9 @@
                  [com.fzakaria/slf4j-timbre "0.3.21"]       ;added to rtemove this error in the log MLog initialization issue: slf4j found no binding or threatened to use its (dangerously silent) NOPLogger. We consider the slf4j library not found.
                  [org.clojure/math.numeric-tower "0.0.5"]
                  [ring/ring-core "1.9.4"]                   ;for the html escapes
+                 [com.draines/postal "2.0.2"]
+                 [clj-soup/clojure-soup "0.1.3"]
+                 [com.climate/claypoole "1.1.4"]            ;completable futures
                  ]
 
   :min-lein-version "2.0.0"

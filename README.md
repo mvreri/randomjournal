@@ -1,5 +1,7 @@
 # journal
 
+## Template Sources
+1. https://codepen.io/steinvc/pen/nOPLgv
 ## Prerequisites
 
 You will need [Leiningen][1] 2.0 or above installed.
