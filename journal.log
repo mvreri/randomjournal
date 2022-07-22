@@ -1,0 +1,4 @@
+2022-Jul-22 16:36:34 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-22 16:40:25 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-22 16:40:30 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
