@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6a9e04-5f6b-4779-a0f1-8bad41194927" name="Default" comment="" />
+    <list default="true" id="7a6a9e04-5f6b-4779-a0f1-8bad41194927" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal.log" beforeDir="false" afterPath="$PROJECT_DIR$/journal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/journaling.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/journaling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/journal/routes/home.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/journal/routes/home.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/journal/journal/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/journal/journal/pom.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Clojure Namespace" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -282,13 +289,13 @@
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="journal" />
+      <module name="urlshorten" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="journal" />
+      <module name="urlshorten" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />

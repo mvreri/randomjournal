@@ -24,18 +24,9 @@
             [clj-time.jdbc :as jd]
             [clojure.string :as string]
             [cheshire.core :refer :all]
-    ;[ring.util.response :refer [file-response]]
-            [ring.util.request :as utireq]
-    ;[image-resizer.crop :refer :all]
-    ;[image-resizer.resize :refer :all]
-    ;[image-resizer.pad :refer :all]
-    ;[image-resizer.rotate :refer :all]
-            [image-resizer.core :refer :all]
-            [image-resizer.format :as format]
-            [http.async.client :as httpasync]
             [crypto.password.scrypt :as password]
             [ring.util.http-response :refer :all]           ;ring http response
-            [ring.util.codec :as c]
+
             )
   (:use (clojure.java [io :as jio]))
   (:use [slingshot.slingshot :only [throw+ try+]])
@@ -47,7 +38,6 @@
           (java.net URLEncoder)
           [org.apache.pdfbox.pdmodel PDDocument]
           [org.apache.pdfbox.util PDFTextStripper])
-
   )
 
 
@@ -139,14 +129,53 @@
   )
 
 ;pages
-(defn dashboard-page [req]
+(defn journals-page [req]
   (let [
         flashmsg (session/flash-get :message)
         link (:link (:link (session/get :sssn_tp)))
-        final-page-params (assoc (page-load (str "Journaling Dashboard")  (str "An overview of your journaling account. Have fun!")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Journaling ")  (str "An overview of your journaling account. Have fun!")) :pagemsg flashmsg)
         final-page-params (assoc final-page-params :link link)
         ]
     (layout/render "journaling.html" final-page-params)
+    )
+  )
+
+(defn journal-page [req]
+  (let [
+        flashmsg (session/flash-get :message)
+        link (:link (:link (session/get :sssn_tp)))
+        final-page-params (assoc (page-load (str "Journaling ")  (str "An overview of your journaling account. Have fun!")) :pagemsg flashmsg)
+        final-page-params (assoc final-page-params :link link)
+        ]
+    (layout/render "journaling.html" final-page-params)
+    )
+  )
+
+(defn journal-check [jrn]
+      ;user, date, journalentry
+      (let [createprofile (:body (client/post (str config/ip-port-ext "/api/v1/account/create") {
+                                                                                                 :body (json/write-str jrn)
+                                                                                                 :body-encoding "UTF-8"
+                                                                                                 :content-type  :json
+                                                                                                 }
+                                              )
+                            )
+            ]
+           createprofile
+           )
+      )
+
+(defn journal [jrn]
+  ;user, date, journalentry
+  (let [createprofile (:body (client/post (str config/ip-port-ext "/api/v1/account/create") {
+                                                                                             :body (json/write-str jrn)
+                                                                                             :body-encoding "UTF-8"
+                                                                                             :content-type  :json
+                                                                                             }
+                                          )
+                        )
+        ]
+    createprofile
     )
   )
 
@@ -173,6 +202,7 @@
   )
 
 (defn register [registercreds]
+  ;email, password, name
   (let [registercreds (assoc registercreds :application config/application)]
     (let [createprofile (:body (client/post (str config/ip-port-ext "/api/v1/account/create") {
                                                                                                :body (json/write-str registercreds)
@@ -289,11 +319,15 @@
 
 
 (def-restricted-routes home-routes
-                       (GET "/dashboard" req (dashboard-page req))
+                       (GET "/journall" req (journal-page req))
+                       (POST "/journal" [jrn] (journal jrn))
+                       (POST "/journal/check" [jrn] (journal-check jrn))
+                       (GET "/journals" req (journals-page req))
                        )
 (defroutes open-routes
            ;main site pages
            (GET "/" req (home-page req))
+           (GET "/journal" req (journal-page req))
            ;user account pages
            (GET "/register" req (registration-page req))
            (POST "/register" [registercreds] (register registercreds))
