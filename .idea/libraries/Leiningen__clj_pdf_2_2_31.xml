@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: clj-pdf:2.2.31">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/clj-pdf/clj-pdf/2.2.31/clj-pdf-2.2.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

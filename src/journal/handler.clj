@@ -18,7 +18,7 @@
 
 (defroutes base-routes
            (route/resources "/")
-           (route/not-found (layout/render "site/404.html" {
+           (route/not-found (layout/render "404.html" {
                                                                  :product-name (str "The Journal")
                                                                  :product-description (str "The Journal")
                                                                  :page-title (str "You Seem Lost.")

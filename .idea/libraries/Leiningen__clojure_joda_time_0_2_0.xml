@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: clojure.joda-time:0.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/clojure/joda-time/clojure.joda-time/0.2.0/clojure.joda-time-0.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

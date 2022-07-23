@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: com.h2database/h2:1.4.182">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.182/h2-1.4.182.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

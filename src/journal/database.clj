@@ -121,10 +121,11 @@
 
 
 (defn journal-get-by-date [date]
+  (println date)
       (with-db db-connection-journal (exec-raw (format "SELECT details::text details
-                                                   FROM tbl_rjournal
-                                                   WHERE DATE(created)= CURDATE()
-                                                   AND '%s' = CURDATE();"
+                                                         FROM tbl_rjournal
+                                                         WHERE DATE(created) = current_date
+                                                         AND DATE('%s') = current_date;"
                                                        date) :results)
                )
       )
@@ -138,6 +139,7 @@
       )
 
 (defn journal-create [body]
+  (println body)
       (let [
             jrnlsuffix (get-random-id 5)
             refno (str "JRNL-" jrnlsuffix)

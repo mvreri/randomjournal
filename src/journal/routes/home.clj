@@ -130,22 +130,14 @@
 
 (defn journal-check [jrnd]
       ;user, date, journalentry
-      (let [
-            jcheck (db/journal-get-by-date jrnd)
-            ]
+      (let [jcheck (db/journal-get-by-date jrnd)]
            jcheck
            )
       )
 
 (defn journal [jrn]
       ;user, date, journalentry
-      (let [createprofile (:body (client/post (str config/ip-port-ext "/api/v1/journal/create") {
-                                                                                                 :body (json/write-str jrn)
-                                                                                                 :body-encoding "UTF-8"
-                                                                                                 :content-type  :json
-                                                                                                 }
-                                              )
-                            )
+      (let [createprofile (db/journal-create jrn)
             ]
            createprofile
            )
@@ -292,14 +284,16 @@
 
 (def-restricted-routes home-routes
                        (GET "/journall" req (journal-page req))
-                       (POST "/journal" [jrn] (journal jrn))
-                       (POST "/journal/check" [jrn] (journal-check jrn))
+                       ;(POST "/journal" [jrn] (journal jrn))
+                       ;(POST "/journal/check" [jrn] (journal-check jrn))
                        (GET "/journals" req (journals-page req))
                        )
 (defroutes open-routes
            ;main site pages
            (GET "/" req (home-page req))
            (GET "/journal" req (journal-page req))
+           (POST "/journal" [jrn] (journal jrn))
+           (POST "/journal/check" [jrnd] (journal-check jrnd))
            ;user account pages
            (GET "/register" req (registration-page req))
            (POST "/register" [registercreds] (register registercreds))

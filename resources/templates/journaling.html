@@ -1,110 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        * {
-  outline:none;
-	border:none;
-	margin:0px;
-	padding:0px;
-	font-family:Courier, monospace;
-}
-body {
-	background:#333 url(https://static.tumblr.com/maopbtg/a5emgtoju/inflicted.png) repeat;
-}
-#paper {
-	color:#FFF;
-	font-size:20px;
-}
-#margin {
-	margin-left:12px;
-	margin-bottom:20px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-#text {
-	width:500px;
-	overflow:hidden;
-	background-color:#FFF;
-	color:#222;
-	font-family:Courier, monospace;
-	font-weight:normal;
-	font-size:24px;
-	resize:none;
-	line-height:40px;
-	padding-left:100px;
-	padding-right:100px;
-	padding-top:45px;
-	padding-bottom:34px;
-	background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
-	background-repeat:repeat-y, repeat;
-	-webkit-border-radius:12px;
-	border-radius:12px;
-	-webkit-box-shadow: 0px 2px 14px #000;
-	box-shadow: 0px 2px 14px #000;
-	border-top:1px solid #FFF;
-	border-bottom:1px solid #FFF;
-}
-#title {
-	background-color:transparent;
-	border-bottom:3px solid #FFF;
-	color:#FFF;
-	font-size:20px;
-	font-family:Courier, monospace;
-	height:28px;
-	font-weight:bold;
-	width:220px;
-}
-#button {
-	cursor:pointer;
-	margin-top:20px;
-	float:right;
-	height:40px;
-	padding-left:24px;
-	padding-right:24px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	font-size:20px;
-	color:#FFF;
-	text-shadow: 0px -1px 0px #000000;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	border-top:1px solid #FFF;
-	-webkit-box-shadow: 0px 2px 14px #000;
-	box-shadow: 0px 2px 14px #000;
-	background-color: #62add6;
-	background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
-	background-repeat:repeat-x;
-}
-#button:active {
-	zoom: 1;
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-}
-#button:focus {
-	zoom: 1;
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-}
-#wrapper {
-	width:700px;
-	height:auto;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:24px;
-	margin-bottom:100px;
-}
-    </style>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+    <meta name="author" content="Journaling">
+    <meta name="description" content="Journaling">
+    <title>Journaling</title>
+    <link rel="stylesheet" href="/js/journal.css" />
 </head>
 <body>
 <div id="wrapper">
 
-    <form id="frm-journal" method="post" action="">
+    <form id="frm-journal" class="frm-journal" method="post" action="">
 
         <div id="margin">Title: <input id="title" type="text" name="title"></div>
         <textarea placeholder="What are your thoughts today?" id="text" name="text" class="txtarea" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>
@@ -112,97 +19,10 @@ body {
         <input id="button" type="button" value="Create" class="btn-create-journal">
 
     </form>
-
 </div>
-<script>
-let jrnl = {};
-jrnl.user = 'thisuser';
-if (document.querySelector('.txtarea')) {
-    document.querySelector('.txtarea').addEventListener("keyup", function(event) {
-        const key = event.key;
-        console.log(this.value);
-        jrnl.message = this.value.trim();
-
-    });
-}
-
-if (document.querySelector('.btn-create-journal')) {
-    document.querySelector('.btn-create-journal').addEventListener("click", function(ev) {
-        ev.stopPropagation();
-        ev.preventDefault();
-        postJournal(jrnl);
-    });
-}
-
-function formatCurrentMysqlDateTime() { //2022-04-07 07:37:32
-    return new Date().toISOString().slice(0, 10) + " " + new Date().toLocaleTimeString('en-GB');
-}
-
-
-function postJournal(j) {
-jrnl.created = formatCurrentMysqlDateTime();
-    console.log(j);
-   /* weHavePostJournalSuccess = false;
-    $.ajax({
-        type: "POST",
-        url: "/journal",
-        contentType: "application/json;charset=UTF-8",
-        async: true,
-        data: JSON.stringify({
-            "jrn": j
-        }),
-        success: function(data, status, xhr) {
-            weHavePostJournalSuccess = true;
-            var params = JSON.parse(xhr.responseText);
-            console.log(params);
-            //location.reload();
-        },
-        error: function(xhr, status, error) {
-            //console.log("Error!" + xhr.status);
-            console.log(xhr.statusText);
-        },
-        complete: function() {
-            if (!weHavePostJournalSuccess) {
-                //console.log('Sent Data');
-            }
-        },
-        dataType: "json"
-    });
-
-*/
-}
-
-//checking whether there has been a journal entry today
-function checkJournal() {
-    weHavecheckJournalSuccess = false;
-    $.ajax({
-        type: "POST",
-        url: "/journal/check",
-        contentType: "application/json;charset=UTF-8",
-        async: true,
-        data: JSON.stringify({
-            "jrn": j
-        }),
-        success: function(data, status, xhr) {
-            weHavecheckJournalSuccess = true;
-            var params = JSON.parse(xhr.responseText);
-            console.log(params);
-        },
-        error: function(xhr, status, error) {
-            //console.log("Error!" + xhr.status);
-            console.log(xhr.statusText);
-        },
-        complete: function() {
-            if (!weHavecheckJournalSuccess) {
-                //console.log('Sent Data');
-            }
-        },
-        dataType: "json"
-    });
-
-
-}
-</script>
+<script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+<script src="/js/journal.js"></script>
 
 </body>
 </html>
