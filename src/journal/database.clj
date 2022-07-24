@@ -243,6 +243,7 @@
                  )
 
         ;send the journals to the user via email (:email juser)
+        ;https://stackoverflow.com/questions/54287505/unable-to-send-mails-from-gmail-smtp
         (send-message {:host "smtp.gmail.com"
                        :tls true
                        :user (str "year.ninety@gmail.com")
@@ -276,12 +277,6 @@
                     )
 
       )
-
-
-
-
-
-
     )
   )
 
@@ -345,13 +340,10 @@
 
       )
     )
-
   )
 
 (defn journal-users-login [body]
-  (let [
-        uemail (journal-user-get-by-email (:email body))
-        ]
+  (let [uemail (journal-user-get-by-email (:email body))]
 
     (if (= uemail nil)
       (with-out-str (json/pprint {:errors {

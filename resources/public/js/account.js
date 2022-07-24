@@ -12,14 +12,23 @@ if (document.querySelector('.btn-login')) {
     document.querySelector('.btn-login').addEventListener("click", function(ev) {
         ev.stopPropagation();
         ev.preventDefault();
-        console.log('loggin in');
         //validate hre
         if (!validateEmail(document.querySelector('.uname').value)) {
-            console.log('fix email');
+             Swal.fire({
+               title: 'Email Address',
+               html: 'There\'s an issue with the email address specified',
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             return false;
         }
         if (document.querySelector('.password').value.length < 6) {
-            console.log('fix passw');
+             Swal.fire({
+               title: 'Password',
+               html: 'There\'s an issue with the length of the password specified',
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             return false;
         }
         classie.add(document.querySelector('.btn-login'), 'hide');
@@ -33,18 +42,33 @@ if (document.querySelector('.btn-register')) {
     document.querySelector('.btn-register').addEventListener("click", function(ev) {
         ev.stopPropagation();
         ev.preventDefault();
-        console.log('registerin');
         //validate
         if (!validateAlphanumeric(document.querySelector('.fname').value)) {
-            console.log('fix name');
+             Swal.fire({
+               title: 'Name',
+               html: 'Please check the name specified',
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             return false;
         }
         if (!validateEmail(document.querySelector('.email').value)) {
-            console.log('fix email');
+             Swal.fire({
+               title: 'Email Address',
+               html: 'There\'s an issue with the email address specified',
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
+             document.querySelector('.email').focus();
             return false;
         }
         if (document.querySelector('.password').value.length < 6) {
-            console.log('fix password');
+             Swal.fire({
+               title: 'Password',
+               html: 'There\'s an issue with the length of the password specified',
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             return false;
         }
         classie.add(document.querySelector('.btn-register'), 'hide');
@@ -73,13 +97,23 @@ function register(reg) {
                 location.href = '/login';
             } else {
                 classie.remove(document.querySelector('.btn-register'), 'hide');
-                console.log(params.errors.detail);
+             Swal.fire({
+               title: 'Register',
+               html: params.errors.detail,
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             }
         },
         error: function(xhr, status, error) {
             //console.log("Error!" + xhr.status);
-            console.log(xhr.statusText);
             classie.remove(document.querySelector('.btn-register'), 'hide');
+             Swal.fire({
+               title: 'Register',
+               html: xhr.statusText,
+               icon: 'error',
+               confirmButtonText: 'Okay'
+             });
         },
         complete: function() {
             if (!weHaveregSuccess) {
@@ -108,13 +142,23 @@ function login(lgn) {
                 location.href = '/journal';
             } else {
                 classie.remove(document.querySelector('.btn-login'), 'hide');
-                console.log(params.errors.detail);
+             Swal.fire({
+               title: 'Login',
+               html: params.errors.detail,
+               icon: 'warning',
+               confirmButtonText: 'Okay'
+             });
             }
         },
         error: function(xhr, status, error) {
             //console.log("Error!" + xhr.status);
-            console.log(xhr.statusText);
             classie.remove(document.querySelector('.btn-login'), 'hide');
+             Swal.fire({
+               title: 'Login',
+               html: xhr.statusText,
+               icon: 'error',
+               confirmButtonText: 'Okay'
+             });
         },
         complete: function() {
             if (!weHaveloginSuccess) {

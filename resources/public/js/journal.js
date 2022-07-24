@@ -1,16 +1,15 @@
-    document.querySelector('.form-holder').style.marginLeft =  "0";
-    document.querySelector('.form-items').style.maxWidth =  "500px";
-    document.querySelector('.website-logo').style.top =  "50px";
-    document.querySelector('.website-logo').style.left =  "50px";
-    document.querySelector('.website-logo').style.right =  "initial";
-    document.querySelector('.website-logo').style.bottom =  "initial";
+document.querySelector('.form-holder').style.marginLeft = "0";
+document.querySelector('.form-items').style.maxWidth = "500px";
+document.querySelector('.website-logo').style.top = "50px";
+document.querySelector('.website-logo').style.left = "50px";
+document.querySelector('.website-logo').style.right = "initial";
+document.querySelector('.website-logo').style.bottom = "initial";
 
 checkJournal(formatCurrentMysqlDateTime(), usr);
 
 function prepareJournal() {
     let jrnl = {};
     jrnl.user = usr;
-
     classie.remove(document.querySelector('.frm-journal'), 'hide');
     if (document.querySelector('.txtarea')) {
         document.querySelector('.txtarea').addEventListener("keyup", function(event) {
@@ -34,7 +33,6 @@ function formatCurrentMysqlDateTime() { //2022-04-07 07:37:32
 
 function postJournal(j) {
     j.created = formatCurrentMysqlDateTime();
-    console.log(j);
     weHavePostJournalSuccess = false;
     $.ajax({
         type: "POST",
@@ -47,7 +45,6 @@ function postJournal(j) {
         success: function(data, status, xhr) {
             weHavePostJournalSuccess = true;
             var params = JSON.parse(xhr.responseText);
-            //console.log(params);
             location.reload();
         },
         error: function(xhr, status, error) {
@@ -73,20 +70,27 @@ function checkJournal(jd, u) {
         async: true,
         data: JSON.stringify({
             "jrnd": {
-            "user": u,
-            "date": jd
+                "user": u,
+                "date": jd
             }
         }),
         success: function(data, status, xhr) {
             weHavecheckJournalSuccess = true;
             var params = JSON.parse(xhr.responseText);
-            console.log(params);
             if (params.length == 0) { //no journals
                 prepareJournal();
                 //update journal for this user, no journal
             } else { //yes journal
                 classie.add(document.querySelector('.frm-journal'), 'hide');
-                //location.href = '/journals';
+                Swal.fire({
+                    title: 'Journal',
+                    html: 'You have already updated your journal for today ',
+                    icon: 'info',
+                    confirmButtonText: 'Okay'
+                }).then(function() {
+                                      window.location = "/journals";
+                                  });
+
             }
         },
         error: function(xhr, status, error) {
