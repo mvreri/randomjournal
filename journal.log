@@ -32,3 +32,990 @@
 -=[ journal started successfully using the development profile ]=-
 2022-Jul-23 21:33:55 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
 2022-Jul-23 21:34:00 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-23 22:07:51 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-23 22:08:05 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 22:17:28 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 22:19:40 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 22:19:53 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-23 22:36:32 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-23 22:36:37 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-23 22:37:13 +0300 CREAM.local INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-23 22:42:46 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-23 22:42:52 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-23 22:43:29 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-23 23:13:46 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 23:14:52 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 23:15:21 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-23 23:15:50 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:10:46 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:11:39 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:12:30 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:12:45 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:13:15 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:14:08 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:14:23 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:14:51 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:15:32 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:17:04 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:32:15 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 00:32:21 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 00:33:07 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 00:33:22 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:33:34 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:37:16 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:38:14 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:48:10 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:48:45 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:49:37 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:50:10 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:50:24 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 00:51:07 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 00:51:30 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:51:38 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 00:56:09 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 00:56:38 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 00:56:59 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 00:58:25 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 00:58:48 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:01:00 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:13:07 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:15:56 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:16:01 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@46013198>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value fc3ebe89-e65e-4414-9980-7d9fba9c99b0}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:logincreds {:email a@b.com, :password 111111}}, :flash nil, :body-params {:logincreds {:email a@b.com, :password 111111}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=fc3ebe89-e65e-4414-9980-7d9fba9c99b0, content-length 54, referer http://localhost:3000/login, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 54, :form-params {}, :session/key fc3ebe89-e65e-4414-9980-7d9fba9c99b0, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /login, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@7dd620f1>, :multipart-params {}, :scheme :http, :request-method :post, :session {:ring.middleware.session-timeout/idle-timeout 1658616194, :noir {:sssn_pg /login}}}}
+2022-Jul-24 01:16:13 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:16:13 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@10f2da2a>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value fc3ebe89-e65e-4414-9980-7d9fba9c99b0}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:logincreds {:email a@b.com, :password 111111}}, :flash nil, :body-params {:logincreds {:email a@b.com, :password 111111}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=fc3ebe89-e65e-4414-9980-7d9fba9c99b0, content-length 54, referer http://localhost:3000/login, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 54, :form-params {}, :session/key fc3ebe89-e65e-4414-9980-7d9fba9c99b0, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /login, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@54a6377>, :multipart-params {}, :scheme :http, :request-method :post, :session {:ring.middleware.session-timeout/idle-timeout 1658616361, :noir {:sssn_pg /login}}}}
+2022-Jul-24 01:16:24 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:16:24 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@10f2da2a>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value fc3ebe89-e65e-4414-9980-7d9fba9c99b0}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:logincreds {:email a@b.com, :password 111111}}, :flash nil, :body-params {:logincreds {:email a@b.com, :password 111111}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=fc3ebe89-e65e-4414-9980-7d9fba9c99b0, content-length 54, referer http://localhost:3000/login, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 54, :form-params {}, :session/key fc3ebe89-e65e-4414-9980-7d9fba9c99b0, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /login, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@60437dd1>, :multipart-params {}, :scheme :http, :request-method :post, :session {:ring.middleware.session-timeout/idle-timeout 1658616373, :noir {:sssn_pg /login}}}}
+2022-Jul-24 01:18:41 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:18:46 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:19:18 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:19:36 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:19:36 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@618a8717>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value fc3ebe89-e65e-4414-9980-7d9fba9c99b0}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:logincreds {:email a@b.com, :password 111111}}, :flash nil, :body-params {:logincreds {:email a@b.com, :password 111111}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=fc3ebe89-e65e-4414-9980-7d9fba9c99b0, content-length 54, referer http://localhost:3000/login, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 54, :form-params {}, :session/key nil, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /login, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@6b9b431>, :multipart-params {}, :scheme :http, :request-method :post, :session {}}}
+2022-Jul-24 01:20:22 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 01:20:57 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 01:21:07 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:21:14 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:23:13 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:23:45 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 01:27:04 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 01:28:57 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:29:02 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:29:31 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:29:32 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:33 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:34 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:35 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:36 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:37 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:38 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:39 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:40 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:41 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:42 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:43 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:44 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:45 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:46 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:47 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:48 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:49 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:50 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:51 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:52 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:53 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:54 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:55 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:56 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:57 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:58 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:29:59 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:00 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:01 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:02 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:03 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:04 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:05 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:06 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:08 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:30:16 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:30:16 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:33:04 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:33:05 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:05 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:05 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:05
+2022-Jul-24 01:33:06 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:06 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:06 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:06
+2022-Jul-24 01:33:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:07 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:07 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:07
+2022-Jul-24 01:33:08 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:08 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:08 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:08
+2022-Jul-24 01:33:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:09 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:09
+2022-Jul-24 01:33:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:10 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:10
+2022-Jul-24 01:33:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:11 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:11
+2022-Jul-24 01:33:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:12 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:12
+2022-Jul-24 01:33:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:13 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:13
+2022-Jul-24 01:33:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:14 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:14
+2022-Jul-24 01:33:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:15 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:15
+2022-Jul-24 01:33:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:16 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:16
+2022-Jul-24 01:33:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:17
+2022-Jul-24 01:33:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:18 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:18
+2022-Jul-24 01:33:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:19
+2022-Jul-24 01:33:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:20
+2022-Jul-24 01:33:21 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:21 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:21
+2022-Jul-24 01:33:22 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:22 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:22 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:22
+2022-Jul-24 01:33:23 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:23 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:23 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:23
+2022-Jul-24 01:33:24 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:24 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:24 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:24
+2022-Jul-24 01:33:25 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:25 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:25 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:25
+2022-Jul-24 01:33:26 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:26 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:26 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:26
+2022-Jul-24 01:33:27 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:27 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:27 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:27
+2022-Jul-24 01:33:28 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:28 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:28 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:28
+2022-Jul-24 01:33:29 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:29 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:29 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:29
+2022-Jul-24 01:33:30 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:30 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:30 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:30
+2022-Jul-24 01:33:31 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:31 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:31 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:31
+2022-Jul-24 01:33:32 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:32 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:32 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:32
+2022-Jul-24 01:33:33 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:33:33 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:33:33 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:33:33
+2022-Jul-24 01:33:34 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:33:34 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.database] - 01:36
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:36:58
+2022-Jul-24 01:36:58 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:36:59 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:36:59 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:36:59 +0300 UnknownHost INFO [journal.database] - 01:36
+2022-Jul-24 01:36:59 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:36:59
+2022-Jul-24 01:36:59 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:00 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:00 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:00 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:00 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:00
+2022-Jul-24 01:37:00 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:01 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:01 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:01 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:01 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:01
+2022-Jul-24 01:37:01 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:02 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:02 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:02 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:02 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:02
+2022-Jul-24 01:37:02 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:03 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:03 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:03 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:03 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:03
+2022-Jul-24 01:37:03 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:04 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:04 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:04 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:04 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:04
+2022-Jul-24 01:37:04 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:05 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:05 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:05 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:05 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:05
+2022-Jul-24 01:37:05 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:06 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:06 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:06 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:06 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:06
+2022-Jul-24 01:37:06 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:07 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:07 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:07 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:07
+2022-Jul-24 01:37:07 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:08 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:08 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:08 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:08 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:08
+2022-Jul-24 01:37:08 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:09 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:09 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:09
+2022-Jul-24 01:37:09 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:10 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:10 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:10
+2022-Jul-24 01:37:10 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:11 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:11 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:11
+2022-Jul-24 01:37:11 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:12 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:12 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:12
+2022-Jul-24 01:37:12 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:13 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:13 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:13
+2022-Jul-24 01:37:13 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:14 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:14 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:14
+2022-Jul-24 01:37:14 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:15 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:15 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:15
+2022-Jul-24 01:37:15 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:16 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:16 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:16
+2022-Jul-24 01:37:16 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:17 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:17
+2022-Jul-24 01:37:17 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:18 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:18 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:18
+2022-Jul-24 01:37:18 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:19 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:19
+2022-Jul-24 01:37:19 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.database] - 01:37
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:37:20
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.database] - __  true 01:37
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:37:20 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:04
+2022-Jul-24 01:41:04 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:05 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:05 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:05 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:05 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:05
+2022-Jul-24 01:41:05 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:06 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:06 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:06 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:06 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:06
+2022-Jul-24 01:41:06 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:07 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:07 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:07 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:07
+2022-Jul-24 01:41:07 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:08 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:08 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:08 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:08 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:08
+2022-Jul-24 01:41:08 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:09 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:09 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:09
+2022-Jul-24 01:41:09 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:10 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:10 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:10
+2022-Jul-24 01:41:10 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:11 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:11 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:11
+2022-Jul-24 01:41:11 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:12 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:12 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:12
+2022-Jul-24 01:41:12 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:41:13 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:41:13 +0300 UnknownHost INFO [journal.database] - 01:41
+2022-Jul-24 01:41:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:41:13
+2022-Jul-24 01:41:13 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 01:41:14 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:41:14 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:44:08 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:44:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:09 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:09 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:09
+2022-Jul-24 01:44:09 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:10 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:10 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:10
+2022-Jul-24 01:44:10 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:11 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:11 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:11
+2022-Jul-24 01:44:11 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:12 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:12 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:12
+2022-Jul-24 01:44:12 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:13 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:13 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:13
+2022-Jul-24 01:44:13 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:14 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:14 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:14
+2022-Jul-24 01:44:14 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:15 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:15 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:15
+2022-Jul-24 01:44:15 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:16 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:16 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:16
+2022-Jul-24 01:44:16 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:17 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:17
+2022-Jul-24 01:44:17 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:18 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:18 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:18
+2022-Jul-24 01:44:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:19 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:19
+2022-Jul-24 01:44:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:20 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:20
+2022-Jul-24 01:44:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:21 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:21 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:21 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:21
+2022-Jul-24 01:44:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:22 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:22 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:22 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:22 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:22
+2022-Jul-24 01:44:22 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:23 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:23 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:23 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:23 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:23
+2022-Jul-24 01:44:23 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:24 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:24 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:24 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:24 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:24
+2022-Jul-24 01:44:24 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:25 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:25 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:25 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:25 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:25
+2022-Jul-24 01:44:25 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:26 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:26 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:26 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:26 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:26
+2022-Jul-24 01:44:26 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:27 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:27 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:27 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:27 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:27
+2022-Jul-24 01:44:27 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:28 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:28 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:28 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:28 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:28
+2022-Jul-24 01:44:28 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:29 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 01:44:29 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:44:29 +0300 UnknownHost INFO [journal.database] - 01:44
+2022-Jul-24 01:44:29 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:44:29
+2022-Jul-24 01:44:29 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 01:44:30 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:44:30 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:53:43 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:54:25 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 01:54:25 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 01:55:01 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 01:55:00 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 01:55:01 +0300 UnknownHost INFO [journal.database] - 01:55
+2022-Jul-24 01:55:01 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 01:55:01
+2022-Jul-24 01:55:01 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:04:27 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:04:32 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:05:00 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:05:06 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:05:06 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:09:17 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:09:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:17 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:17
+2022-Jul-24 02:09:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:19
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:20
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:21
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:22
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:22 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:23
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:23 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - 02:09
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:09:24
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:09:24 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:29
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:29 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:30
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:30 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:31
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:31 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:32
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:32 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:33
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:33 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:34
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:34 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - 02:11
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:11:35
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.database] - __  true
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:11:35 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:14:06 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:16:45 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:16:50 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:17:18 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:21:27 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:21:32 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:22:44 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:27:47 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - 02:27
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:27:52
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:27:52 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:31
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:31 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:43
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:43 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:44
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:44 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:45
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:45 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:46
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:46 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:47 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:52
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:52 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:53
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:53 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:54
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:54 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:55
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:55 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:56
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:56 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:57 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:57 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:58 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:58 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:58
+2022-Jul-24 02:28:58 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:58 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:58 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - 02:28
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:28:59
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:28:59 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:00
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:00 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:01
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:01 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:02
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:02 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:03
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:03 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:04
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:04 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:05
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:05 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:06
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:06 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:07
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:07 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:08
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:08 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:09
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:09 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:10
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:10 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:11
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:11 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:12
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:12 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:13
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:13 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:14
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:14
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:14 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:15
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:15
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:15 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:16
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:16
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:16 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:17
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:17
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:17 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:18
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:18
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:18 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:19
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:19
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:19 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:20
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:20
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:20 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:21
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - 02:29
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:29:21
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:29:21 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:29:22 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - 02:30
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:30:41
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:41 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - 02:30
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:30:42
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:42 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - 07/24/2022
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - 02:30
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 02:30:43
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - __  2022-07-24 12:00
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.database] - __  false
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:30:43 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:31:32 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:35:16 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 02:35:29 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 02:44:11 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 02:44:25 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 02:45:00 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 02:45:22 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 02:45:38 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 02:57:48 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 02:57:53 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 02:58:32 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 02:58:49 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 02:58:56 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:30:46 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 03:30:51 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 03:31:43 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 03:31:58 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 03:32:05 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:42:21 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@d867a22>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value 3282bbf7-6fcf-452c-a87a-e438e53eefcd}}, :remote-addr 0:0:0:0:0:0:0:1, :params {}, :flash nil, :headers {sec-fetch-site none, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=3282bbf7-6fcf-452c-a87a-e438e53eefcd, sec-fetch-user ?1, connection keep-alive, upgrade-insecure-requests 1, pragma no-cache, accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9, accept-language en-GB, sec-fetch-dest document, accept-encoding gzip, deflate, br, sec-fetch-mode navigate, sec-gpc 1, cache-control no-cache}, :server-port 3000, :content-length nil, :form-params {}, :session/key 3282bbf7-6fcf-452c-a87a-e438e53eefcd, :query-params {}, :content-type nil, :character-encoding nil, :uri /, :server-name localhost, :query-string nil, :body #<HttpInputOverHTTP HttpInputOverHTTP@d06459>, :multipart-params {}, :scheme :http, :request-method :get, :session {:noir {:sssn a@b.com, :sssn_in true, :sssn_pg /}, :ring.middleware.session-timeout/idle-timeout 1658624876}}}
+2022-Jul-24 03:42:32 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 03:42:32 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 03:43:17 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 03:43:34 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:44:42 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /register
+2022-Jul-24 03:45:00 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 03:45:18 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:45:26 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 03:45:26 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 03:46:31 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 03:46:44 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 03:46:53 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:48:08 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 03:48:28 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 03:50:04 +0300 UnknownHost INFO [journal.routes.home] - Accessed ++++++++  /login
+2022-Jul-24 03:50:21 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 03:56:26 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@7b11a8e8>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value e987dcd8-8e26-453c-82b4-894883e6fcf7}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:jrn {:user b@c.com, :message Going on up, :created 2022-07-24 03:56:26}}, :flash nil, :body-params {:jrn {:user b@c.com, :message Going on up, :created 2022-07-24 03:56:26}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=e987dcd8-8e26-453c-82b4-894883e6fcf7, content-length 82, referer http://localhost:3000/journal, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 82, :form-params {}, :session/key e987dcd8-8e26-453c-82b4-894883e6fcf7, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /journal, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@74e970a9>, :multipart-params {}, :scheme :http, :request-method :post, :session {:noir {:sssn b@c.com, :sssn_in true, :sssn_pg /login}, :ring.middleware.session-timeout/idle-timeout 1658625967}}}

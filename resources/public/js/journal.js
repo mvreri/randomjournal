@@ -1,13 +1,20 @@
-checkJournal(formatCurrentMysqlDateTime());
+    document.querySelector('.form-holder').style.marginLeft =  "0";
+    document.querySelector('.form-items').style.maxWidth =  "500px";
+    document.querySelector('.website-logo').style.top =  "50px";
+    document.querySelector('.website-logo').style.left =  "50px";
+    document.querySelector('.website-logo').style.right =  "initial";
+    document.querySelector('.website-logo').style.bottom =  "initial";
+
+checkJournal(formatCurrentMysqlDateTime(), usr);
 
 function prepareJournal() {
     let jrnl = {};
-    jrnl.user = 'thisuser';
-classie.remove(document.querySelector('.frm-journal'), 'hide');
+    jrnl.user = usr;
+
+    classie.remove(document.querySelector('.frm-journal'), 'hide');
     if (document.querySelector('.txtarea')) {
         document.querySelector('.txtarea').addEventListener("keyup", function(event) {
             const key = event.key;
-            console.log(this.value);
             jrnl.message = this.value.trim();
         });
     }
@@ -40,7 +47,7 @@ function postJournal(j) {
         success: function(data, status, xhr) {
             weHavePostJournalSuccess = true;
             var params = JSON.parse(xhr.responseText);
-            console.log(params);
+            //console.log(params);
             location.reload();
         },
         error: function(xhr, status, error) {
@@ -57,7 +64,7 @@ function postJournal(j) {
 }
 
 //checking whether there has been a journal entry today
-function checkJournal(jd) {
+function checkJournal(jd, u) {
     weHavecheckJournalSuccess = false;
     $.ajax({
         type: "POST",
@@ -65,11 +72,15 @@ function checkJournal(jd) {
         contentType: "application/json;charset=UTF-8",
         async: true,
         data: JSON.stringify({
-            "jrnd": jd
+            "jrnd": {
+            "user": u,
+            "date": jd
+            }
         }),
         success: function(data, status, xhr) {
             weHavecheckJournalSuccess = true;
             var params = JSON.parse(xhr.responseText);
+            console.log(params);
             if (params.length == 0) { //no journals
                 prepareJournal();
                 //update journal for this user, no journal

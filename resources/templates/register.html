@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page-title}}</title>
+    <meta name="description" content="{{page-description}}" />
+    <meta name="keywords" content="{{page-description}}" />
+    <meta name="author" content="mvreri" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme13.css">
+<!--    {% include "head.html" %}-->
 </head>
 <body>
+    <div class="form-body" class="container-fluid">
+        <div class="website-logo">
+            <a href="/">
+                <div class="logo">
+                    <img class="logo-size" src="images/logo-light.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder hide">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <h3>Get more things done with Loggin platform.</h3>
+                    <p>Access to the most powerfull tool in the entire design and web industry.<br><br>
+                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <div class="page-links">
+                            <a href="/login">Login</a><a href="/register" class="active">Register</a>
+                        </div>
+                        <form>
+                            <input class="form-control fname" type="text" name="name" placeholder="Full Name" required>
+                            <input class="form-control email" type="email" name="email" placeholder="E-mail Address" required>
+                            <input class="form-control password" type="password" name="password" placeholder="Password" required>
+                            <div class="form-button">
+                                <button id="btn-register" type="button" class="ibtn btn-register">Register</button>
+                            </div>
+                        </form>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
+    <script type="text/javascript" src="js/account.js"></script>
+    <script >
+    document.querySelector('.form-holder').style.marginLeft =  "0";
+    document.querySelector('.form-items').style.maxWidth =  "500px";
+/*    document.querySelector('.website-logo').style.top =  "50px";
+    document.querySelector('.website-logo').style.left =  "50px";
+    document.querySelector('.website-logo').style.right =  "initial";
+    document.querySelector('.website-logo').style.bottom =  "initial";
+    document.querySelector('.website-logo').style.display =  "inline-block";*/
+
+</script>
 </body>
 </html>
