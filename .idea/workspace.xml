@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695931ce-1ed0-484a-bc6a-daa0964f8b18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/public/css/fab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/journal.config" beforeDir="false" afterPath="$PROJECT_DIR$/conf/journal.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/journal.log" beforeDir="false" afterPath="$PROJECT_DIR$/journal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/public/js/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/public/js/account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/public/js/journal.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/public/js/journal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/templates/journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/journal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/templates/journaling.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/journaling.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/templates/journals.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/journals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/journal/database.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/journal/database.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/journal/encrypt.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/journal/routes/home.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/journal/routes/home.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/journal/journal/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/journal/journal/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page-title}}</title>
+    {% include "head.html" %}
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-theme4.css">
+    <link rel="stylesheet" type="text/css" href="css/fab.css">
     <script>
     var usr = '{{session}}';
 </script>
@@ -22,8 +21,8 @@
         </a>
     </div>
     <div class="row">
-        <div class="img-holder hide">
-            <div class="bg"></div>
+        <div class="img-holder ">
+            <div class="bg hide"></div>
             <div class="info-holder">
                 <img src="images/graphic1.svg" alt="">
             </div>
@@ -40,6 +39,28 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+        <div class="fab-wrapper hide">
+            <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
+            <label class="fab" for="fabCheckbox">
+                <span class="fab-dots fab-dots-1"></span>
+                <span class="fab-dots fab-dots-2"></span>
+                <span class="fab-dots fab-dots-3"></span>
+            </label>
+            <div class="fab-wheel">
+                <a class="fab-action fab-action-1">
+                    <i class="fas fa-question"></i>
+                </a>
+                <a class="fab-action fab-action-2">
+                    <i class="fas fa-book"></i>
+                </a>
+                <a class="fab-action fab-action-3">
+                    <i class="fas fa-address-book"></i>
+                </a>
+                <a class="fab-action fab-action-4">
+                    <i class="fas fa-info"></i>
+                </a>
             </div>
         </div>
     </div>

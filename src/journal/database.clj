@@ -7,8 +7,6 @@
     [clojure.data.json :as json]
     [korma.db :refer :all]
     [journal.config :as config]
-    [clj-time.coerce :as tc]
-    [clojure.string :as string]
     [clojure.walk :as walk]
     [korma.core :refer :all]
     [clj-time.core :as t]
@@ -61,13 +59,6 @@
 (defn set-interval [callback ms]
   (future (while true (do (Thread/sleep ms) (callback)))))
 
-(def job (set-interval #(log-every-x-secs) 1000))
-;(def job (set-interval #(log-every-x-secs) 43200))          ;every 12 hrs
-
-(future-cancel job)
-
-
-
 (def db-connection-journal
   {:classname "org.postgresql.Driver"
    :subprotocol config/db-subprotocol
@@ -83,26 +74,18 @@
   (future (while true (do (Thread/sleep ms) (callback)))))
 
 (def job (set-interval #(log-every-x-secs) 60000))
-;(def job (set-interval #(log-every-x-secs) 43200))          ;every 12 hrs
-;(def job (set-interval #(log-every-x-secs) 300000))
 
-(future-cancel job)
+;(future-cancel job)
 
 ;check the time to send the email every minute
 (defn log-every-x-secs []
-  (timbre/info "logging again")
-  ;(timbre/info (.format (java.text.SimpleDateFormat. "MM/dd/yyyy") (new java.util.Date)))
-  ;(timbre/info (.format (java.text.SimpleDateFormat. "HH:mm") (new java.util.Date)))
-  ;(timbre/info "__ " (get-current-timestamp))
-  ;(timbre/info "__ " (str (f/unparse (f/formatter-local "yyyy-MM-dd") (l/local-now)) " 12:00"))
-  ;(timbre/info "__ " (= (str (f/unparse (f/formatter-local "HH:mm") (l/local-now))) "01:41") )
-  ;(timbre/info "__ " (= (str (f/unparse (f/formatter-local "yyyy-MM-dd HH:mm") (l/local-now))) (str (f/unparse (f/formatter-local "yyyy-MM-dd") (l/local-now)) " 02:11")) )
-  ;
-
   (if (= (str (f/unparse (f/formatter-local "HH:mm") (l/local-now))) "12:00")
-    (journal-send)
+    (do
+      (journal-send)
+      (future-cancel job)                                   ;stop the job
+      (set-interval #(log-every-x-secs) 64800000)           ;resume checking after 18 hours
+      )
     )
-
   )
 
 (defn cancel-job []
@@ -210,22 +193,17 @@
 
 (defn join-msgs [s]
   (->> s
-       (map-indexed #(str (inc %1) ". " %2))
-       (interpose \newline)
+       (map-indexed #(str (inc %1) ". " %2 "<br/>"))
+       ;(interpose \newline)
        (apply str)))
 
 (defn journal-send []
   (let [
-        ;pick a random user to send journals to
-        juser (first (with-db db-connection-journal (exec-raw (format "SELECT details->>'email'::text email
-                                                                      FROM tbl_rjournal_users
-                                                                      ORDER BY random() limit 1;"):results
-                                                              )
-                              )
-                     )
-        somecontent (with-db db-connection-journal (exec-raw (format "SELECT dttt->>'message'::text msg
+        somecontent (with-db db-connection-journal (exec-raw (format "SELECT dttt->>'message'::text msg, dttt->>'user'::text usr
                                                                           FROM tbl_rjournal, jsonb_array_elements(details) with ordinality arr(dttt, index)
-                                                                          WHERE DATE(created) = current_date;"
+                                                                          WHERE DATE(created) = current_date
+                                                                          AND (dttt->>'created'::text)::TIMESTAMP between (SELECT current_timestamp - interval '1 day') AND (SELECT current_timestamp)
+                                                                          ;"
                                                                      ) :results
                                                              )
                              )
@@ -233,40 +211,43 @@
 
     (if (not= somecontent nil)
       (do
-        ;;update the journal table with the id of the user we picked for today
-        (with-db db-connection-journal (exec-raw (format "UPDATE tbl_rjournal
+        (let [;get random user - so that we only pick from those who updated
+              rnduser (:usr (first (shuffle somecontent)))
+              ] ;shuffle the list retrieved, pick the first in the list and send to that user after shuffling
+          ;;update the journal table with the id of the user we picked for today
+          (with-db db-connection-journal (exec-raw (format "UPDATE tbl_rjournal
                                                                  SET sendout = '%s'
                                                                  WHERE DATE(created) = current_date;"
-                                                         (:email juser)
-                                                         )
-                                                 )
-                 )
+                                                           rnduser
+                                                           )
+                                                   )
+                   )
 
-        ;send the journals to the user via email (:email juser)
-        ;https://stackoverflow.com/questions/54287505/unable-to-send-mails-from-gmail-smtp
-        (send-message {:host "smtp.gmail.com"
-                       :tls true
-                       :user (str "year.ninety@gmail.com")
-                       :pass (str "password")
-                       :port 587
-                       }
-                      {
-                       :from (str "Journaling"  " <year.ninety@gmail.com>")
-                       :to (:email juser)
-                       :subject "Random Journal"
-                       :body [{:type "text/html"
-                               :content (join-msgs (vec (map :msg (vec somecontent)))) }
-                              ]
-                       }
-                      )
-        (with-out-str (json/pprint {:data {
-                                           :status 201
-                                           :title (str "Journal Sent" )
-                                           :detail  (str "OK" )
-                                           }
-                                    })
-                      )
-
+          ;send the journals to the user via email (:email juser)
+          ;https://stackoverflow.com/questions/54287505/unable-to-send-mails-from-gmail-smtp
+          (send-message {:host "smtp-mail.outlook.com"
+                           :tls true
+                           :user (str config/send-email-official)
+                           :pass (str config/send-email-official-pass)
+                           :port (Integer/parseInt config/send-email-official-port)
+                           }
+                          {
+                           :from (str config/send-email-official-name  " <" config/send-email-official">")
+                           :to (:email juser)
+                           :subject "theJournal"
+                           :body [{:type "text/html"
+                                   :content (str "Hey there,<br/> <p>These are the journals for today for you.</p><br/>" (join-msgs (vec (map :msg (vec somecontent)))))  }
+                                  ]
+                           }
+                          )
+          (with-out-str (json/pprint {:data {
+                                             :status 200
+                                             :title (str "Journal Sent" )
+                                             :detail  (str "OK" )
+                                             }
+                                      })
+                        )
+          )
         )
       (with-out-str (json/pprint {:errors {
                                            :status 404

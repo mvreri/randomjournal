@@ -3,42 +3,29 @@
             [taoensso.timbre :as timbre]
             [journal.layout :as layout]
             [journal.config :as config]
-            [journal.encrypt :as encrypt]
             [journal.database :as db]
             [clojure.data.json :as json]
             [noir.response :refer [redirect]]
             [clojure.data.json :as json]
             [clojure.walk :as walk]
-            [noir.util.crypt :as crypt]
             [noir.session :as session]
             [noir.response :as response]
             [clj-http.client :as client]
             [noir.util.route :refer [restricted def-restricted-routes]]
             [taoensso.timbre :refer [trace debug info warn error fatal]]
             [cronj.core :refer [cronj]]
-            [noir.io :as io]
-            [noir.util.crypt :as crypt]
-            [clj-time.core :as t]
             [clj-time.local :as l]
             [clj-time.format :as f]
-            [clj-time.coerce :as tc]
-            [clj-time.jdbc :as jd]
             [clojure.string :as string]
             [cheshire.core :refer :all]
-            [crypto.password.scrypt :as password]
             [ring.util.http-response :refer :all]           ;ring http response
+            [chime.core :as chime]
 
             )
   (:use (clojure.java [io :as jio]))
   (:use [slingshot.slingshot :only [throw+ try+]])
-  (import (java.io File)
-          (java.net URL
-                    URLConnection
-                    HttpURLConnection
-                    UnknownHostException)
-          (java.net URLEncoder)
-          [org.apache.pdfbox.pdmodel PDDocument]
-          [org.apache.pdfbox.util PDFTextStripper])
+  (import [java.time Instant]
+          [java.time LocalTime ZonedDateTime ZoneId Period])
   )
 
 
@@ -109,7 +96,7 @@
   (let [
         flashmsg (session/flash-get :message)
         session (session/get :sssn)
-        final-page-params (assoc (page-load (str "Journals ")  (str "An overview of your journals!")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Journals ")  (str "An overview of your journals")) :pagemsg flashmsg)
         final-page-params (assoc final-page-params :session session)
         ]
     (layout/render "journals.html" final-page-params)
@@ -131,7 +118,7 @@
   (let [
         flashmsg (session/flash-get :message)
         session (session/get :sssn)
-        final-page-params (assoc (page-load (str "Journaling ")  (str "An overview of your journaling account. Have fun!")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Journal ")  (str "An overview of your journaling account. Have fun!")) :pagemsg flashmsg)
         final-page-params (assoc final-page-params :session session)
         ]
 
@@ -159,9 +146,8 @@
   (session/put! :sssn_pg (get-in req [:uri]))
   (let [
         flashmsg (session/flash-get :message)
-        final-page-params (assoc (page-load (str "Home")  (str "Random Journaling Home")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Home")  (str "Random Journaling Home")) :pagemsg flashmsg)
         ]
-
     (layout/render "login.html" final-page-params)
     )
   )
@@ -190,7 +176,7 @@
   (session/put! :sssn_pg (get-in req [:uri]))
   (let [
         flashmsg (session/flash-get :message)
-        final-page-params (assoc (page-load (str "Random Journaling Registration")  (str "Random Journaling Registration" )) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Registration")  (str "Random Journaling Registration" )) :pagemsg flashmsg)
         ]
     (layout/render "register.html" final-page-params)
     )
@@ -215,7 +201,7 @@
   (session/put! :sssn_pg (get-in req [:uri]))
   (let [
         flashmsg (session/flash-get :message)
-        final-page-params (assoc (page-load (str "Sign In")  (str "Welcome Back")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Sign In")  (str "Welcome Back")) :pagemsg flashmsg)
         ]
     (layout/render "login.html" final-page-params)
     )
@@ -230,7 +216,7 @@
 (defn signout-page []
   (let [
         flashmsg (session/flash-put! :message "Successfully Logged Out")
-        final-page-params (assoc (page-load (str "Logging Out")  (str "Logging Out from your account")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Logging Out")  (str "Logging Out from your account")) :pagemsg flashmsg)
         _ (logout)
         ]
     (layout/render "logout.html" final-page-params)
@@ -240,7 +226,7 @@
 (defn logout-page []
   (let [
         flashmsg (session/flash-put! :message "Successfully Logged Out")
-        final-page-params (assoc (page-load (str "Signing Out")  (str "Signing out from your account")) :pagemsg flashmsg)
+        final-page-params (assoc (page-load (str "Random Journaling | Signing Out")  (str "Signing out from your account")) :pagemsg flashmsg)
         _ (logout)
         ]
     (layout/render "logout.html" final-page-params)
@@ -256,6 +242,9 @@
                        (POST "/journal" [jrn] (journal jrn))
                        (POST "/journal/check" [jrnd] (journal-check jrnd))
                        (POST "/journals/random" [jrnusr] (journals-random jrnusr))
+                       (GET "/sign-out" [] (signout-page ))
+                       (GET "/logout" [] (logout-page ))
+                       (POST "/logout" [] (logout ))
                        )
 (defroutes open-routes
            ;main site pages
@@ -266,7 +255,5 @@
            (POST "/register/check/email" [email] (register-check-email email))
            (GET "/login" req (login-page req))
            (POST "/login" [logincreds] (login logincreds))
-           (GET "/sign-out" [] (signout-page ))
-           (GET "/logout" [] (logout-page ))
-           (POST "/logout" [] (logout ))
+
            )

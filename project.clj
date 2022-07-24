@@ -55,6 +55,7 @@
                  [com.draines/postal "2.0.2"]
                  [clj-soup/clojure-soup "0.1.3"]
                  [com.climate/claypoole "1.1.4"]            ;completable futures
+                 [jarohen/chime "0.3.3"]
                  ]
 
   :min-lein-version "2.0.0"

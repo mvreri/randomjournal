@@ -1,11 +1,12 @@
-document.querySelector('.form-holder').style.marginLeft = "0";
+/*document.querySelector('.form-holder').style.marginLeft = "0";
 document.querySelector('.form-items').style.maxWidth = "500px";
 document.querySelector('.website-logo').style.top = "50px";
 document.querySelector('.website-logo').style.left = "50px";
 document.querySelector('.website-logo').style.right = "initial";
-document.querySelector('.website-logo').style.bottom = "initial";
+document.querySelector('.website-logo').style.bottom = "initial";*/
 
 checkJournal(formatCurrentMysqlDateTime(), usr);
+
 
 function prepareJournal() {
     let jrnl = {};
@@ -14,6 +15,7 @@ function prepareJournal() {
     if (document.querySelector('.txtarea')) {
         document.querySelector('.txtarea').addEventListener("keyup", function(event) {
             const key = event.key;
+            this.value = this.value.substr(0, 500); //limit the number of characters to 500
             jrnl.message = this.value.trim();
         });
     }
@@ -81,7 +83,8 @@ function checkJournal(jd, u) {
                 prepareJournal();
                 //update journal for this user, no journal
             } else { //yes journal
-                classie.add(document.querySelector('.frm-journal'), 'hide');
+                classie.add(document.querySelector('.form-items'), 'hide');
+                //classie.add(document.querySelector('.frm-journal'), 'hide');
                 Swal.fire({
                     title: 'Journal',
                     html: 'You have already updated your journal for today ',

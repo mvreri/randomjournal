@@ -1020,3 +1020,71 @@
 2022-Jul-24 03:50:21 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
 2022-Jul-24 03:56:26 +0300 UnknownHost ERROR [journal.middleware] - {:error #<NullPointerException java.lang.NullPointerException>, :request {:ssl-client-cert nil, :access-rules [{:uri /*, :rule #<handler$user_access journal.handler$user_access@7b11a8e8>, :redirect /login}], :protocol HTTP/1.1, :cookies {JSESSIONID {:value lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE}, ring-session {:value e987dcd8-8e26-453c-82b4-894883e6fcf7}}, :remote-addr 0:0:0:0:0:0:0:1, :params {:jrn {:user b@c.com, :message Going on up, :created 2022-07-24 03:56:26}}, :flash nil, :body-params {:jrn {:user b@c.com, :message Going on up, :created 2022-07-24 03:56:26}}, :headers {origin http://localhost:3000, sec-fetch-site same-origin, x-requested-with XMLHttpRequest, host localhost:3000, user-agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36, content-type application/json;charset=UTF-8, cookie JSESSIONID=lfIwmO02dKZIIBNVi5QnJDNSXZxkiaBsds73MySE; ring-session=e987dcd8-8e26-453c-82b4-894883e6fcf7, content-length 82, referer http://localhost:3000/journal, connection keep-alive, accept application/json, text/javascript, */*; q=0.01, accept-language en-GB,en;q=0.9, sec-fetch-dest empty, accept-encoding gzip, deflate, br, sec-fetch-mode cors, sec-gpc 1}, :server-port 3000, :content-length 82, :form-params {}, :session/key e987dcd8-8e26-453c-82b4-894883e6fcf7, :query-params {}, :content-type application/json;charset=UTF-8, :character-encoding UTF-8, :uri /journal, :server-name localhost, :query-string nil, :body #<ByteArrayInputStream java.io.ByteArrayInputStream@74e970a9>, :multipart-params {}, :scheme :http, :request-method :post, :session {:noir {:sssn b@c.com, :sssn_in true, :sssn_pg /login}, :ring.middleware.session-timeout/idle-timeout 1658625967}}}
 2022-Jul-24 05:12:13 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 05:23:16 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 05:23:21 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 05:27:19 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 05:34:10 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 05:46:46 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:47:57 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:04 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:06 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:08 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:11 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:13 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:15 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:18 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:21 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:23 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:26 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:29 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:48:32 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 05:51:35 +0300 UnknownHost INFO [journal.routes.home] - Starting User Login Process on login fn...
+2022-Jul-24 06:01:24 +0300 UnknownHost INFO [journal.routes.home] - Logging Out
+2022-Jul-24 07:16:37 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 07:16:42 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 08:07:33 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 08:43:46 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 08:43:51 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 08:44:12 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 08:45:32 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 08:45:37 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 08:46:30 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 08:53:09 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 08:53:14 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 08:53:31 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-
+2022-Jul-24 08:54:28 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 08:55:47 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 08:56:52 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 08:57:57 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 08:59:02 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:00:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:01:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:02:17 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:03:22 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:04:27 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:05:32 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:06:37 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:07:42 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:08:47 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:09:52 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:10:57 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:12:02 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:13:07 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:14:12 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:15:18 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:16:23 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:17:28 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:18:33 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:19:37 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:20:43 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:21:48 +0300 CREAM.local INFO [journal.database] - logging again
+2022-Jul-24 09:22:53 +0300 UnknownHost INFO [journal.database] - logging again
+2022-Jul-24 09:23:37 +0300 UnknownHost INFO [journal.handler] - journal is shutting down...
+2022-Jul-24 09:23:37 +0300 UnknownHost INFO [journal.handler] - shutdown complete!
+2022-Jul-24 09:24:05 +0300 UnknownHost INFO [journal.handler] - 
+-=[ journal started successfully using the development profile ]=-

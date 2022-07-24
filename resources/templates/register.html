@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page-title}}</title>
-    <meta name="description" content="{{page-description}}" />
-    <meta name="keywords" content="{{page-description}}" />
-    <meta name="author" content="mvreri" />
-    <link rel="shortcut icon" href="../favicon.ico">
+    {% include "head.html" %}
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
     <link rel="stylesheet" type="text/css" href="css/iofrm-theme13.css">
-<!--    {% include "head.html" %}-->
+    <link rel="stylesheet" type="text/css" href="css/fab.css">
+
 </head>
 <body>
     <div class="form-body" class="container-fluid">
@@ -25,12 +19,11 @@
             </a>
         </div>
         <div class="row">
-            <div class="img-holder hide">
+            <div class="img-holder ">
                 <div class="bg"></div>
                 <div class="info-holder">
-                    <h3>Get more things done with Loggin platform.</h3>
-                    <p>Access to the most powerfull tool in the entire design and web industry.<br><br>
-                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                    <h3>Keep Journaling.</h3>
+                    <p>Create a journaling account.</p>
                 </div>
             </div>
             <div class="form-holder">
@@ -51,6 +44,28 @@
                     </div>
                 </div>
             </div>
+            <div class="fab-wrapper hide">
+                <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
+                <label class="fab" for="fabCheckbox">
+                    <span class="fab-dots fab-dots-1"></span>
+                    <span class="fab-dots fab-dots-2"></span>
+                    <span class="fab-dots fab-dots-3"></span>
+                </label>
+                <div class="fab-wheel">
+                    <a class="fab-action fab-action-1">
+                        <i class="fas fa-question"></i>
+                    </a>
+                    <a class="fab-action fab-action-2">
+                        <i class="fas fa-book"></i>
+                    </a>
+                    <a class="fab-action fab-action-3">
+                        <i class="fas fa-address-book"></i>
+                    </a>
+                    <a class="fab-action fab-action-4">
+                        <i class="fas fa-info"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -61,9 +76,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
     <script type="text/javascript" src="js/account.js"></script>
     <script >
-    document.querySelector('.form-holder').style.marginLeft =  "0";
+/*    document.querySelector('.form-holder').style.marginLeft =  "0";
     document.querySelector('.form-items').style.maxWidth =  "500px";
-/*    document.querySelector('.website-logo').style.top =  "50px";
+    document.querySelector('.website-logo').style.top =  "50px";
     document.querySelector('.website-logo').style.left =  "50px";
     document.querySelector('.website-logo').style.right =  "initial";
     document.querySelector('.website-logo').style.bottom =  "initial";

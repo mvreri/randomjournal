@@ -58,8 +58,10 @@ if (document.querySelector('.btn-register')) {
                html: 'There\'s an issue with the email address specified',
                icon: 'warning',
                confirmButtonText: 'Okay'
-             });
-             document.querySelector('.email').focus();
+             }).then(function() {
+                                                     document.querySelector('.email').focus();
+                                                 });
+
             return false;
         }
         if (document.querySelector('.password').value.length < 6) {
@@ -68,7 +70,9 @@ if (document.querySelector('.btn-register')) {
                html: 'There\'s an issue with the length of the password specified',
                icon: 'warning',
                confirmButtonText: 'Okay'
-             });
+             }).then(function() {
+                                                                    document.querySelector('.password').focus();
+                                                                });
             return false;
         }
         classie.add(document.querySelector('.btn-register'), 'hide');
