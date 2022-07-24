@@ -233,7 +233,7 @@
                            }
                           {
                            :from (str config/send-email-official-name  " <" config/send-email-official">")
-                           :to (:email juser)
+                           :to rnduser
                            :subject "theJournal"
                            :body [{:type "text/html"
                                    :content (str "Hey there,<br/> <p>These are the journals for today for you.</p><br/>" (join-msgs (vec (map :msg (vec somecontent)))))  }
