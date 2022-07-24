@@ -9,7 +9,7 @@
 #GCP
 1. https://stackoverflow.com/questions/27535945/how-to-access-ssh-keys-for-a-google-cloud-platform-compute-engine-vm-instance
 2. https://www.siteyaar.com/google-cloud-ftp-and-sftp-setup/
-3. 
+3. https://stackoverflow.com/questions/21065922/how-to-open-a-specific-port-such-as-9090-in-google-compute-engine
 ## Prerequisites
 
 You will need [Leiningen][1] 2.0 or above installed.
