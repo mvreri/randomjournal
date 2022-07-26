@@ -73,22 +73,27 @@
 (defn set-interval [callback ms]
   (future (while true (do (Thread/sleep ms) (callback)))))
 
-(def job (set-interval #(log-every-x-secs) 60000))
+;(def job (set-interval #(log-every-x-secs) 300000))
 
 ;(future-cancel job)
 
 ;check the time to send the email every minute
 (defn log-every-x-secs []
+
   (if (= (str (f/unparse (f/formatter-local "HH:mm") (l/local-now))) "12:00")
     (do
       (journal-send)
-      (future-cancel job)                                   ;stop the job
-      (set-interval #(log-every-x-secs) 64800000)           ;resume checking after 18 hours
+      ;(future-cancel job)                                   ;stop the job
+      ;(set-interval #(log-every-x-secs) 64800000)           ;resume checking after 18 hours
       )
     )
   )
 
-(defn cancel-job []
+(defn start-job []
+  (set-interval #(log-every-x-secs) 60000)
+  )
+
+#_(defn cancel-job []
   (future-cancel job)
   )
 
@@ -194,7 +199,7 @@
 (defn join-msgs [s]
   (->> s
        (map-indexed #(str (inc %1) ". " %2 "<br/>"))
-       ;(interpose \newline)
+       (interpose \newline)
        (apply str)))
 
 (defn journal-send []
@@ -262,7 +267,7 @@
   )
 
 (defn journal-user-get-by-email [email]
-  (first (with-db db-connection-journal (exec-raw (format "SELECT details::text details
+  (first (with-db db-connection-journal (exec-raw (format "SELECT details::text as details
                                                             FROM tbl_rjournal_users
                                                             WHERE details->>'email'::text='%s';"
                                                           email) :results)
@@ -281,7 +286,7 @@
   )
 
 (defn journal-users-create [body]
-  (let [uemail (journal-user-get-by-email (:email body))]
+(let [uemail (journal-user-get-by-email (:email body))]
     (if (= uemail nil)
       (let [
             refno (get-random-id 5)

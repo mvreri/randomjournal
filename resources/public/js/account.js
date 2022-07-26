@@ -59,9 +59,8 @@ if (document.querySelector('.btn-register')) {
                icon: 'warning',
                confirmButtonText: 'Okay'
              }).then(function() {
-                                                     document.querySelector('.email').focus();
-                                                 });
-
+                     document.querySelector('.email').focus();
+             });
             return false;
         }
         if (document.querySelector('.password').value.length < 6) {
@@ -71,8 +70,8 @@ if (document.querySelector('.btn-register')) {
                icon: 'warning',
                confirmButtonText: 'Okay'
              }).then(function() {
-                                                                    document.querySelector('.password').focus();
-                                                                });
+                   document.querySelector('.password').focus();
+             });
             return false;
         }
         classie.add(document.querySelector('.btn-register'), 'hide');
@@ -98,15 +97,15 @@ function register(reg) {
             weHaveregSuccess = true;
             var params = JSON.parse(xhr.responseText);
             if (params.hasOwnProperty('data')) {
-                location.href = '/login';
+                location.href = '/login?message='+ encodeURIComponent('You can now start journaling');
             } else {
                 classie.remove(document.querySelector('.btn-register'), 'hide');
-             Swal.fire({
-               title: 'Register',
-               html: params.errors.detail,
-               icon: 'warning',
-               confirmButtonText: 'Okay'
-             });
+                 Swal.fire({
+                   title: 'Register',
+                   html: params.errors.detail,
+                   icon: 'warning',
+                   confirmButtonText: 'Okay'
+                 });
             }
         },
         error: function(xhr, status, error) {
@@ -151,7 +150,7 @@ function login(lgn) {
                html: params.errors.detail,
                icon: 'warning',
                confirmButtonText: 'Okay'
-             });
+             })
             }
         },
         error: function(xhr, status, error) {

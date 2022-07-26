@@ -19,16 +19,10 @@
             [clojure.string :as string]
             [cheshire.core :refer :all]
             [ring.util.http-response :refer :all]           ;ring http response
-            [chime.core :as chime]
-
             )
   (:use (clojure.java [io :as jio]))
   (:use [slingshot.slingshot :only [throw+ try+]])
-  (import [java.time Instant]
-          [java.time LocalTime ZonedDateTime ZoneId Period])
   )
-
-
 
 (config/initialize-config)
 
@@ -66,7 +60,6 @@
   (str (f/unparse (f/formatter-local "yyyy-MM-dd HH:mm:ss") (l/local-now)))
   )
 
-
 (defn numeric? [s]
   (if-let [s (seq s)]
     (let [s (if (= (first s) \-) (next s) s)
@@ -79,7 +72,6 @@
   [email]
   (let [pattern #"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"]
     (and (string? email) (re-matches pattern email))))
-
 
 (defn page-load [page-name page-description]
   {
@@ -233,7 +225,10 @@
     )
   )
 
-
+(defn trigger-timer [req]
+  ;email, password, name
+  (db/start-job)
+  )
 
 (def-restricted-routes home-routes
                        (GET "/journals" req (journals-page req))
@@ -255,5 +250,5 @@
            (POST "/register/check/email" [email] (register-check-email email))
            (GET "/login" req (login-page req))
            (POST "/login" [logincreds] (login logincreds))
-
+           (GET "/startime" req (trigger-timer req))
            )

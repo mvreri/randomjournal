@@ -4,7 +4,6 @@ document.querySelector('.website-logo').style.top = "50px";
 document.querySelector('.website-logo').style.left = "50px";
 document.querySelector('.website-logo').style.right = "initial";
 document.querySelector('.website-logo').style.bottom = "initial";*/
-
 checkJournal(formatCurrentMysqlDateTime(), usr);
 
 
@@ -23,7 +22,19 @@ function prepareJournal() {
         document.querySelector('.btn-create-journal').addEventListener("click", function(ev) {
             ev.stopPropagation();
             ev.preventDefault();
-            postJournal(jrnl);
+            if (document.querySelector('.txtarea').value.length < 5) {
+                Swal.fire({
+                    title: 'Journal',
+                    html: 'Your journal entry is a bit short. Please add a few more words',
+                    icon: 'warning',
+                    confirmButtonText: 'Okay'
+                }).then(function() {
+                    document.querySelector('.txtarea').focus();
+                });
+            } else {
+                postJournal(jrnl);
+            }
+
         });
     }
 }
@@ -79,7 +90,7 @@ function checkJournal(jd, u) {
         success: function(data, status, xhr) {
             weHavecheckJournalSuccess = true;
             var params = JSON.parse(xhr.responseText);
-            if (params.length == 0) { //no journals
+            if (params.data.detail.length == 0) { //no journals
                 prepareJournal();
                 //update journal for this user, no journal
             } else { //yes journal
@@ -91,8 +102,8 @@ function checkJournal(jd, u) {
                     icon: 'info',
                     confirmButtonText: 'Okay'
                 }).then(function() {
-                                      window.location = "/journals";
-                                  });
+                    window.location = "/journals";
+                });
 
             }
         },
